@@ -1,4 +1,4 @@
-# Mentalista-ImersaoDev7-Alura
+# Mentalista - Imersão Dev 7 - Alura 2023
 
 This is the second project on ImersãoDev 7 on Alura plataform. I learned more things about programming logic works on JS.
 In this game you have to guess a random number between 0 and 1000.
