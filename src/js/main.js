@@ -1,9 +1,8 @@
 var numeroSecreto = parseInt(Math.random() * 1001);
-var tentativas = 0;
+var tentativas = 1;
 while (chute != numeroSecreto) {
   var chute = prompt("Digite um número entre 0 e 1000");
   if (chute == numeroSecreto) {
-    tentativas++;
     break;
   } else if (chute > numeroSecreto) {
     tentativas++;
