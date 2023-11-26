@@ -12,5 +12,5 @@ while (chute != numeroSecreto) {
     alert(`Errou... o número secreto é maior. Você já errou ${tentativas} vezes!`);
   }
 }
-let tentativasPalavra = tentativa > 1 ? 'tentativas' : 'tentativa';
+let tentativasPalavra = tentativas > 1 ? 'tentativas' : 'tentativa';
 alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${tentativasPalavra}`);
