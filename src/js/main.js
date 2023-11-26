@@ -3,7 +3,6 @@ var tentativas = 0;
 while (chute != numeroSecreto) {
   var chute = prompt("Digite um número entre 0 e 1000");
   if (chute == numeroSecreto) {
-    tentativas++;
     break;
   } else if (chute > numeroSecreto) {
     tentativas++;
